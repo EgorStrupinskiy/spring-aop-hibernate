@@ -20,8 +20,7 @@ public class MyLoggingAspect {
         Object targetMethodResult = proceedingJoinPoint.proceed();
 
         System.out.println("End of " + methodName);
-
-
+        
         return targetMethodResult;
     }
 }
